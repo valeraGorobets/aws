@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  background-color: #6200ee;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  height: 60px;
+}
+h1 {
+  font-size: 28px;
+  margin: 0;
+  height: 35px;
+}
+

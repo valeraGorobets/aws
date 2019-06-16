@@ -1,0 +1,21 @@
+.fact-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular {
+    align-self: center;
+    margin: 20px;
+    font-size: 32px;
+}
+
+.popular span {
+    text-decoration: underline;
+}
+
+.fact {
+    margin: 25px 20px;
+    font-size: 32px;
+    font-style: italic;
+}
+

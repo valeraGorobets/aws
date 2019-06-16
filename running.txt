@@ -1,0 +1,33 @@
+C:\Users\Valera\Documents\Git\aws\kafka_2.11-2.2.0\bin\windows>
+	zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+C:\Users\Valera\Documents\Git\aws\kafka_2.11-2.2.0\bin\windows>
+	kafka-server-start.bat ..\..\config\server.properties
+
+C:\Users\Valera\Documents\Git\aws\kafka_2.11-2.2.0\bin\windows>
+	kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+	kafka-topics.bat --list --bootstrap-server localhost:9092
+
+	kafka-console-producer.bat --broker-list localhost:9092 --topic test
+
+C:\Users\Valera\Documents\Git\aws\kafka_2.11-2.2.0\bin\windows>
+	kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
+
+Git Bash:
+    node server.js
+    node consumer.js
+
+Running storm:
+     storm nimbus
+     storm supervisor
+     storm ui
+
+To build topology
+    cmd: \aws\examples\storm-example
+        mvn clean install
+    bash: ~/Documents/Git/aws/apache-storm-2.0.0
+        ./bin/storm jar ../examples/storm-example/target/storm-example-1.0-jar-with-dependencies.jar admicloud.storm.wordcount.WordCountTopology WordCount
+
+
+Install and run hadoop
+    https://github.com/MuhammadBilalYar/Hadoop-On-Window/wiki/Step-by-step-Hadoop-2.8.0-installation-on-Window-10
