@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc66dbe-d78c-4bd6-8f4c-13dc4524d34d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kafka-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-example/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkIteratorMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkProcess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkProcessFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Stream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-example/src/main/java/kafkaexample/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend/pie.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/pie.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,79 +26,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Backend/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Fact/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
+            <state relative-caret-position="705">
+              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Fact/styles.css">
+        <entry file="file://$PROJECT_DIR$/kafka-spark/facts/Math.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Main/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Chart/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/running.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state>
+              <caret column="115" selection-start-column="115" selection-end-column="115" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/kafka-spark/facts/Hello Book.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-spark/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -203,6 +154,13 @@
         <option value="$PROJECT_DIR$/src/Components/Fact/styles.css" />
         <option value="$PROJECT_DIR$/running.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/facts/Math.txt.txt" />
+        <option value="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/facts/Chemistry.txt" />
+        <option value="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/facts/Hello Book.txt" />
+        <option value="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/Runner.java" />
+        <option value="$PROJECT_DIR$/kafka-spark/facts/Chemistry.txt" />
+        <option value="$PROJECT_DIR$/kafka-spark/facts/Math.txt" />
+        <option value="$PROJECT_DIR$/kafka-spark/facts/Hello Book.txt" />
       </list>
     </option>
   </component>
@@ -219,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,18 +187,56 @@
             <path>
               <item name="aws" type="b2602c69:ProjectViewProjectNode" />
               <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-spark" type="462c0819:PsiDirectoryNode" />
+              <item name="facts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-spark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafkaExample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/facts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -250,14 +245,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Valera\Documents\Git\aws\src\Backend" />
-      <recent name="C:\Users\Valera\Documents\Git\aws\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Valera\Documents\Git\aws\kafka-spark\src\main\java\kafkaExample\facts" />
       <recent name="C:\Users\Valera\Documents\Git\aws" />
       <recent name="C:\Users\Valera\Documents\Git\aws\src\Components" />
       <recent name="C:\Users\Valera\Documents\Git\aws\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valera\Documents\Git\aws\kafka-spark" />
+      <recent name="C:\Users\Valera\Documents\Git\aws\src\Backend" />
+      <recent name="C:\Users\Valera\Documents\Git\aws\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +305,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.31023455" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="npm" order="6" side_tool="true" />
       <window_info id="Favorites" order="7" side_tool="true" />
@@ -338,14 +335,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kafka-example/target/classes/kafkaExample/Runner.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkFilter.java" />
-    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkIterator.java" />
-    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkIteratorMapper.java" />
-    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkMapper.java" />
-    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Consumer.java" />
     <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Producer.java" />
     <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/FlinkProcess.java" />
     <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Stream.java" />
@@ -358,20 +347,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/storm-example/src/main/java/admicloud/storm/wordcount/WordCountTopology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/storm-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/storm-example/src/main/java/admicloud/storm/wordcount/WordCountTopology.java" />
+    <entry file="file://$PROJECT_DIR$/examples/storm-example/pom.xml" />
     <entry file="file://$PROJECT_DIR$/apache-storm-2.0.0/conf/storm.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -451,63 +428,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/FlinkMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/FlinkProcess.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/FlinkProcessFunction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="29" selection-start-line="14" selection-start-column="8" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-example/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Consumer.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/FlinkMapper.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/FlinkProcess.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/FlinkProcessFunction.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Stream.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example-copy/src/main/java/kafkaExample/Producer.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-example/src/main/java/kafkaExample/Runner.java" />
     <entry file="file://$PROJECT_DIR$/src/Components/BookSelection/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -584,6 +513,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-spark/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-spark/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-spark/facts/Chemistry.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="345" selection-start-column="345" selection-end-column="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-spark/src/main/java/kafkaExample/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-spark/facts/Math.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="115" selection-start-column="115" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-spark/facts/Hello Book.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

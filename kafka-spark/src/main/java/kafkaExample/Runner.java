@@ -13,6 +13,10 @@ import java.util.Arrays;
 import java.util.Properties;
 import org.json.JSONObject;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+
 public class Runner {
     public static void main(String[] args) throws InterruptedException {
 //        Producer
@@ -69,17 +73,13 @@ public class Runner {
     }
 
     private static String getFactAbout(String bookName) {
-        String mathFact = "'Eleven plus two' is an anagram of 'twelve plus one' which is pretty fitting as the answer to both equations is 13";
-        String chemistryFact = "Water is special, and we all know that, even if you cut class as a kid. When water freezes it expands, obviously, but if you think about it, it should not be so obvious. Typically, materials consolidate and shrink as temperatures drop, but water and its unique structure have a lot of space for energy to be released, resulting in its expansion.";
-        String helloBookFact = "This technology could be a real benefit for NASA, as it can help in augmenting the effectiveness of navigation devices. In 1999, NASA made use of AR for the first time for flying the X-38 by utilizing the special AR dashboard for navigation.";
-        switch(bookName) {
-            case "Math":
-                return mathFact;
-            case "Chemistry":
-                return chemistryFact;
-            case "Hello Book":
-                return helloBookFact;
+        try {
+            String path = "facts\\" + bookName + ".txt";
+            String content = new String(Files.readAllBytes(Paths.get(path)), "UTF-8");
+            return content;
+        } catch (Exception e) {
+            System.out.println(e);
+            return "No Fact Found";
         }
-        return "No Fact Found";
     }
 }
